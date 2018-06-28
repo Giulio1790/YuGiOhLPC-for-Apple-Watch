@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14113" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14033"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <label alignment="left" text="Player 1" id="RW7-8I-lsR"/>
+                        <label alignment="left" text="4000" id="opJ-yd-K7B"/>
+                        <button width="1" alignment="left" title="Up" id="U5e-9R-O0j">
+                            <connections>
+                                <action selector="up1Btn" destination="AgC-eL-Hgc" id="R3K-qQ-z4y"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Down" id="hSh-eV-7zY">
+                            <connections>
+                                <action selector="down1Btn" destination="AgC-eL-Hgc" id="d7P-qB-bH6"/>
+                            </connections>
+                        </button>
+                        <separator alignment="left" id="oZk-Q7-xsG"/>
+                        <label alignment="left" text="Player 2" id="Wan-8g-nhf"/>
+                        <label alignment="left" text="4000" id="Cfo-xk-pEl"/>
+                        <button width="1" alignment="left" title="Up" id="JL3-Ks-8UD">
+                            <connections>
+                                <action selector="up2Btn" destination="AgC-eL-Hgc" id="8rF-lx-tWQ"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Down" id="75n-Pb-FrE">
+                            <connections>
+                                <action selector="down2Btn" destination="AgC-eL-Hgc" id="3XI-hV-4ps"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="myLabel1" destination="opJ-yd-K7B" id="a5r-FH-zon"/>
+                        <outlet property="myLabel2" destination="Cfo-xk-pEl" id="JIi-jc-B4w"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>

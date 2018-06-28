@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35CD7DDE20E5118A00942BA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CD7DDD20E5118A00942BA2 /* AppDelegate.m */; };
+		35CD7DE120E5118A00942BA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CD7DE020E5118A00942BA2 /* ViewController.m */; };
+		35CD7DE420E5118A00942BA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CD7DE220E5118A00942BA2 /* Main.storyboard */; };
+		35CD7DE620E5118B00942BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CD7DE520E5118B00942BA2 /* Assets.xcassets */; };
+		35CD7DE920E5118B00942BA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CD7DE720E5118B00942BA2 /* LaunchScreen.storyboard */; };
+		35CD7DEC20E5118B00942BA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CD7DEB20E5118B00942BA2 /* main.m */; };
+		35CD7DF620E5118B00942BA2 /* YuGiOhLPCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CD7DF520E5118B00942BA2 /* YuGiOhLPCTests.m */; };
+		35CD7E0120E5118B00942BA2 /* YuGiOhLPCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CD7E0020E5118B00942BA2 /* YuGiOhLPCUITests.m */; };
+		35CD7E1420E5119A00942BA2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35CD7E1220E5119A00942BA2 /* Interface.storyboard */; };
+		35CD7E1620E5119B00942BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CD7E1520E5119B00942BA2 /* Assets.xcassets */; };
+		35CD7E1D20E5119B00942BA2 /* YuGiOhLPCW Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 35CD7E1C20E5119B00942BA2 /* YuGiOhLPCW Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		35CD7E2320E5119B00942BA2 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CD7E2220E5119B00942BA2 /* InterfaceController.m */; };
+		35CD7E2620E5119B00942BA2 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CD7E2520E5119B00942BA2 /* ExtensionDelegate.m */; };
+		35CD7E2920E5119B00942BA2 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35CD7E2820E5119B00942BA2 /* NotificationController.m */; };
+		35CD7E2B20E5119B00942BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35CD7E2A20E5119B00942BA2 /* Assets.xcassets */; };
+		35CD7E3020E5119B00942BA2 /* YuGiOhLPCW.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 35CD7E1020E5119A00942BA2 /* YuGiOhLPCW.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35CD7DF220E5118B00942BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35CD7DD120E5118A00942BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35CD7DD820E5118A00942BA2;
+			remoteInfo = YuGiOhLPC;
+		};
+		35CD7DFD20E5118B00942BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35CD7DD120E5118A00942BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35CD7DD820E5118A00942BA2;
+			remoteInfo = YuGiOhLPC;
+		};
+		35CD7E1E20E5119B00942BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35CD7DD120E5118A00942BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35CD7E1B20E5119B00942BA2;
+			remoteInfo = "YuGiOhLPCW Extension";
+		};
+		35CD7E2E20E5119B00942BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35CD7DD120E5118A00942BA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35CD7E0F20E5119A00942BA2;
+			remoteInfo = YuGiOhLPCW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		35CD7E3420E5119B00942BA2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				35CD7E1D20E5119B00942BA2 /* YuGiOhLPCW Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD7E3820E5119B00942BA2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				35CD7E3020E5119B00942BA2 /* YuGiOhLPCW.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		35CD7DD920E5118A00942BA2 /* YuGiOhLPC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuGiOhLPC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CD7DDC20E5118A00942BA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35CD7DDD20E5118A00942BA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35CD7DDF20E5118A00942BA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35CD7DE020E5118A00942BA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35CD7DE320E5118A00942BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35CD7DE520E5118B00942BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35CD7DE820E5118B00942BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35CD7DEA20E5118B00942BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35CD7DEB20E5118B00942BA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35CD7DF120E5118B00942BA2 /* YuGiOhLPCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuGiOhLPCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CD7DF520E5118B00942BA2 /* YuGiOhLPCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuGiOhLPCTests.m; sourceTree = "<group>"; };
+		35CD7DF720E5118B00942BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35CD7DFC20E5118B00942BA2 /* YuGiOhLPCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YuGiOhLPCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CD7E0020E5118B00942BA2 /* YuGiOhLPCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuGiOhLPCUITests.m; sourceTree = "<group>"; };
+		35CD7E0220E5118B00942BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35CD7E1020E5119A00942BA2 /* YuGiOhLPCW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuGiOhLPCW.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CD7E1320E5119A00942BA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		35CD7E1520E5119B00942BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35CD7E1720E5119B00942BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35CD7E1C20E5119B00942BA2 /* YuGiOhLPCW Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YuGiOhLPCW Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35CD7E2120E5119B00942BA2 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		35CD7E2220E5119B00942BA2 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		35CD7E2420E5119B00942BA2 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		35CD7E2520E5119B00942BA2 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		35CD7E2720E5119B00942BA2 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		35CD7E2820E5119B00942BA2 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		35CD7E2A20E5119B00942BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35CD7E2C20E5119B00942BA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35CD7E2D20E5119B00942BA2 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35CD7DD620E5118A00942BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD7DEE20E5118B00942BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD7DF920E5118B00942BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD7E1920E5119B00942BA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35CD7DD020E5118A00942BA2 = {
+			isa = PBXGroup;
+			children = (
+				35CD7DDB20E5118A00942BA2 /* YuGiOhLPC */,
+				35CD7DF420E5118B00942BA2 /* YuGiOhLPCTests */,
+				35CD7DFF20E5118B00942BA2 /* YuGiOhLPCUITests */,
+				35CD7E1120E5119A00942BA2 /* YuGiOhLPCW */,
+				35CD7E2020E5119B00942BA2 /* YuGiOhLPCW Extension */,
+				35CD7DDA20E5118A00942BA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35CD7DDA20E5118A00942BA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35CD7DD920E5118A00942BA2 /* YuGiOhLPC.app */,
+				35CD7DF120E5118B00942BA2 /* YuGiOhLPCTests.xctest */,
+				35CD7DFC20E5118B00942BA2 /* YuGiOhLPCUITests.xctest */,
+				35CD7E1020E5119A00942BA2 /* YuGiOhLPCW.app */,
+				35CD7E1C20E5119B00942BA2 /* YuGiOhLPCW Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35CD7DDB20E5118A00942BA2 /* YuGiOhLPC */ = {
+			isa = PBXGroup;
+			children = (
+				35CD7DDC20E5118A00942BA2 /* AppDelegate.h */,
+				35CD7DDD20E5118A00942BA2 /* AppDelegate.m */,
+				35CD7DDF20E5118A00942BA2 /* ViewController.h */,
+				35CD7DE020E5118A00942BA2 /* ViewController.m */,
+				35CD7DE220E5118A00942BA2 /* Main.storyboard */,
+				35CD7DE520E5118B00942BA2 /* Assets.xcassets */,
+				35CD7DE720E5118B00942BA2 /* LaunchScreen.storyboard */,
+				35CD7DEA20E5118B00942BA2 /* Info.plist */,
+				35CD7DEB20E5118B00942BA2 /* main.m */,
+			);
+			path = YuGiOhLPC;
+			sourceTree = "<group>";
+		};
+		35CD7DF420E5118B00942BA2 /* YuGiOhLPCTests */ = {
+			isa = PBXGroup;
+			children = (
+				35CD7DF520E5118B00942BA2 /* YuGiOhLPCTests.m */,
+				35CD7DF720E5118B00942BA2 /* Info.plist */,
+			);
+			path = YuGiOhLPCTests;
+			sourceTree = "<group>";
+		};
+		35CD7DFF20E5118B00942BA2 /* YuGiOhLPCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35CD7E0020E5118B00942BA2 /* YuGiOhLPCUITests.m */,
+				35CD7E0220E5118B00942BA2 /* Info.plist */,
+			);
+			path = YuGiOhLPCUITests;
+			sourceTree = "<group>";
+		};
+		35CD7E1120E5119A00942BA2 /* YuGiOhLPCW */ = {
+			isa = PBXGroup;
+			children = (
+				35CD7E1220E5119A00942BA2 /* Interface.storyboard */,
+				35CD7E1520E5119B00942BA2 /* Assets.xcassets */,
+				35CD7E1720E5119B00942BA2 /* Info.plist */,
+			);
+			path = YuGiOhLPCW;
+			sourceTree = "<group>";
+		};
+		35CD7E2020E5119B00942BA2 /* YuGiOhLPCW Extension */ = {
+			isa = PBXGroup;
+			children = (
+				35CD7E2120E5119B00942BA2 /* InterfaceController.h */,
+				35CD7E2220E5119B00942BA2 /* InterfaceController.m */,
+				35CD7E2420E5119B00942BA2 /* ExtensionDelegate.h */,
+				35CD7E2520E5119B00942BA2 /* ExtensionDelegate.m */,
+				35CD7E2720E5119B00942BA2 /* NotificationController.h */,
+				35CD7E2820E5119B00942BA2 /* NotificationController.m */,
+				35CD7E2A20E5119B00942BA2 /* Assets.xcassets */,
+				35CD7E2C20E5119B00942BA2 /* Info.plist */,
+				35CD7E2D20E5119B00942BA2 /* PushNotificationPayload.apns */,
+			);
+			path = "YuGiOhLPCW Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35CD7DD820E5118A00942BA2 /* YuGiOhLPC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35CD7E0520E5118B00942BA2 /* Build configuration list for PBXNativeTarget "YuGiOhLPC" */;
+			buildPhases = (
+				35CD7DD520E5118A00942BA2 /* Sources */,
+				35CD7DD620E5118A00942BA2 /* Frameworks */,
+				35CD7DD720E5118A00942BA2 /* Resources */,
+				35CD7E3820E5119B00942BA2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35CD7E2F20E5119B00942BA2 /* PBXTargetDependency */,
+			);
+			name = YuGiOhLPC;
+			productName = YuGiOhLPC;
+			productReference = 35CD7DD920E5118A00942BA2 /* YuGiOhLPC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35CD7DF020E5118B00942BA2 /* YuGiOhLPCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35CD7E0820E5118B00942BA2 /* Build configuration list for PBXNativeTarget "YuGiOhLPCTests" */;
+			buildPhases = (
+				35CD7DED20E5118B00942BA2 /* Sources */,
+				35CD7DEE20E5118B00942BA2 /* Frameworks */,
+				35CD7DEF20E5118B00942BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35CD7DF320E5118B00942BA2 /* PBXTargetDependency */,
+			);
+			name = YuGiOhLPCTests;
+			productName = YuGiOhLPCTests;
+			productReference = 35CD7DF120E5118B00942BA2 /* YuGiOhLPCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35CD7DFB20E5118B00942BA2 /* YuGiOhLPCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35CD7E0B20E5118B00942BA2 /* Build configuration list for PBXNativeTarget "YuGiOhLPCUITests" */;
+			buildPhases = (
+				35CD7DF820E5118B00942BA2 /* Sources */,
+				35CD7DF920E5118B00942BA2 /* Frameworks */,
+				35CD7DFA20E5118B00942BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35CD7DFE20E5118B00942BA2 /* PBXTargetDependency */,
+			);
+			name = YuGiOhLPCUITests;
+			productName = YuGiOhLPCUITests;
+			productReference = 35CD7DFC20E5118B00942BA2 /* YuGiOhLPCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		35CD7E0F20E5119A00942BA2 /* YuGiOhLPCW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35CD7E3520E5119B00942BA2 /* Build configuration list for PBXNativeTarget "YuGiOhLPCW" */;
+			buildPhases = (
+				35CD7E0E20E5119A00942BA2 /* Resources */,
+				35CD7E3420E5119B00942BA2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35CD7E1F20E5119B00942BA2 /* PBXTargetDependency */,
+			);
+			name = YuGiOhLPCW;
+			productName = YuGiOhLPCW;
+			productReference = 35CD7E1020E5119A00942BA2 /* YuGiOhLPCW.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		35CD7E1B20E5119B00942BA2 /* YuGiOhLPCW Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35CD7E3120E5119B00942BA2 /* Build configuration list for PBXNativeTarget "YuGiOhLPCW Extension" */;
+			buildPhases = (
+				35CD7E1820E5119B00942BA2 /* Sources */,
+				35CD7E1920E5119B00942BA2 /* Frameworks */,
+				35CD7E1A20E5119B00942BA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YuGiOhLPCW Extension";
+			productName = "YuGiOhLPCW Extension";
+			productReference = 35CD7E1C20E5119B00942BA2 /* YuGiOhLPCW Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35CD7DD120E5118A00942BA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Hive Company";
+				TargetAttributes = {
+					35CD7DD820E5118A00942BA2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					35CD7DF020E5118B00942BA2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 35CD7DD820E5118A00942BA2;
+					};
+					35CD7DFB20E5118B00942BA2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 35CD7DD820E5118A00942BA2;
+					};
+					35CD7E0F20E5119A00942BA2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					35CD7E1B20E5119B00942BA2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 35CD7DD420E5118A00942BA2 /* Build configuration list for PBXProject "YuGiOhLPC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35CD7DD020E5118A00942BA2;
+			productRefGroup = 35CD7DDA20E5118A00942BA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35CD7DD820E5118A00942BA2 /* YuGiOhLPC */,
+				35CD7DF020E5118B00942BA2 /* YuGiOhLPCTests */,
+				35CD7DFB20E5118B00942BA2 /* YuGiOhLPCUITests */,
+				35CD7E0F20E5119A00942BA2 /* YuGiOhLPCW */,
+				35CD7E1B20E5119B00942BA2 /* YuGiOhLPCW Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35CD7DD720E5118A00942BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CD7DE920E5118B00942BA2 /* LaunchScreen.storyboard in Resources */,
+				35CD7DE620E5118B00942BA2 /* Assets.xcassets in Resources */,
+				35CD7DE420E5118A00942BA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD7DEF20E5118B00942BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD7DFA20E5118B00942BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD7E0E20E5119A00942BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CD7E1620E5119B00942BA2 /* Assets.xcassets in Resources */,
+				35CD7E1420E5119A00942BA2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD7E1A20E5119B00942BA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CD7E2B20E5119B00942BA2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35CD7DD520E5118A00942BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CD7DE120E5118A00942BA2 /* ViewController.m in Sources */,
+				35CD7DEC20E5118B00942BA2 /* main.m in Sources */,
+				35CD7DDE20E5118A00942BA2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD7DED20E5118B00942BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CD7DF620E5118B00942BA2 /* YuGiOhLPCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD7DF820E5118B00942BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CD7E0120E5118B00942BA2 /* YuGiOhLPCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35CD7E1820E5119B00942BA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CD7E2620E5119B00942BA2 /* ExtensionDelegate.m in Sources */,
+				35CD7E2320E5119B00942BA2 /* InterfaceController.m in Sources */,
+				35CD7E2920E5119B00942BA2 /* NotificationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35CD7DF320E5118B00942BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35CD7DD820E5118A00942BA2 /* YuGiOhLPC */;
+			targetProxy = 35CD7DF220E5118B00942BA2 /* PBXContainerItemProxy */;
+		};
+		35CD7DFE20E5118B00942BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35CD7DD820E5118A00942BA2 /* YuGiOhLPC */;
+			targetProxy = 35CD7DFD20E5118B00942BA2 /* PBXContainerItemProxy */;
+		};
+		35CD7E1F20E5119B00942BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35CD7E1B20E5119B00942BA2 /* YuGiOhLPCW Extension */;
+			targetProxy = 35CD7E1E20E5119B00942BA2 /* PBXContainerItemProxy */;
+		};
+		35CD7E2F20E5119B00942BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35CD7E0F20E5119A00942BA2 /* YuGiOhLPCW */;
+			targetProxy = 35CD7E2E20E5119B00942BA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35CD7DE220E5118A00942BA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35CD7DE320E5118A00942BA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35CD7DE720E5118B00942BA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35CD7DE820E5118B00942BA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		35CD7E1220E5119A00942BA2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35CD7E1320E5119A00942BA2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35CD7E0320E5118B00942BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35CD7E0420E5118B00942BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35CD7E0620E5118B00942BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YuGiOhLPC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HC.YuGiOhLPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35CD7E0720E5118B00942BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YuGiOhLPC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HC.YuGiOhLPC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35CD7E0920E5118B00942BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YuGiOhLPCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HC.YuGiOhLPCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuGiOhLPC.app/YuGiOhLPC";
+			};
+			name = Debug;
+		};
+		35CD7E0A20E5118B00942BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YuGiOhLPCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HC.YuGiOhLPCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YuGiOhLPC.app/YuGiOhLPC";
+			};
+			name = Release;
+		};
+		35CD7E0C20E5118B00942BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YuGiOhLPCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HC.YuGiOhLPCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuGiOhLPC;
+			};
+			name = Debug;
+		};
+		35CD7E0D20E5118B00942BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YuGiOhLPCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HC.YuGiOhLPCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YuGiOhLPC;
+			};
+			name = Release;
+		};
+		35CD7E3220E5119B00942BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "YuGiOhLPCW Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HC.YuGiOhLPC.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		35CD7E3320E5119B00942BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "YuGiOhLPCW Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = HC.YuGiOhLPC.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		35CD7E3620E5119B00942BA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = YuGiOhLPCW_Extension;
+				INFOPLIST_FILE = YuGiOhLPCW/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = HC.YuGiOhLPC.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		35CD7E3720E5119B00942BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = YuGiOhLPCW_Extension;
+				INFOPLIST_FILE = YuGiOhLPCW/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = HC.YuGiOhLPC.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35CD7DD420E5118A00942BA2 /* Build configuration list for PBXProject "YuGiOhLPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CD7E0320E5118B00942BA2 /* Debug */,
+				35CD7E0420E5118B00942BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35CD7E0520E5118B00942BA2 /* Build configuration list for PBXNativeTarget "YuGiOhLPC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CD7E0620E5118B00942BA2 /* Debug */,
+				35CD7E0720E5118B00942BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35CD7E0820E5118B00942BA2 /* Build configuration list for PBXNativeTarget "YuGiOhLPCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CD7E0920E5118B00942BA2 /* Debug */,
+				35CD7E0A20E5118B00942BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35CD7E0B20E5118B00942BA2 /* Build configuration list for PBXNativeTarget "YuGiOhLPCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CD7E0C20E5118B00942BA2 /* Debug */,
+				35CD7E0D20E5118B00942BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35CD7E3120E5119B00942BA2 /* Build configuration list for PBXNativeTarget "YuGiOhLPCW Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CD7E3220E5119B00942BA2 /* Debug */,
+				35CD7E3320E5119B00942BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35CD7E3520E5119B00942BA2 /* Build configuration list for PBXNativeTarget "YuGiOhLPCW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CD7E3620E5119B00942BA2 /* Debug */,
+				35CD7E3720E5119B00942BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35CD7DD120E5118A00942BA2 /* Project object */;
+}

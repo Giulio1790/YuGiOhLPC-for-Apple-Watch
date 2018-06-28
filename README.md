@@ -5,7 +5,7 @@ You can install YuGiOhLPC for Apple Watch on your iphone directly from the xcode
 
 # VERSION REQUIRED
 
-IOS 11.4 - WhatcOS 4.3.1
+IOS 11.4 - WhatchOS 4.3.1
 
 # LICENSE
 
